@@ -2,6 +2,10 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "ai.canaryusers/canaryusers",
   "description": "A flock of AI users tests your deployed app and reports where real people get stuck, with fixes.",
+  "repository": {
+    "url": "https://github.com/BrettonB/canaryusers-mcp",
+    "source": "github"
+  },
   "version": "1.2.0",
   "websiteUrl": "https://www.canaryusers.ai/mcp",
   "remotes": [
