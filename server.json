@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.canaryusers/canaryusers",
+  "description": "A flock of AI users tests your deployed app and reports where real people get stuck, with fixes.",
+  "version": "1.2.0",
+  "websiteUrl": "https://www.canaryusers.ai/mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.canaryusers.ai/api/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer <your CanaryUsers API token>. Generate it at canaryusers.ai/dashboard then CI & API, and toggle MCP on.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
