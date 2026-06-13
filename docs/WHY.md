@@ -3,9 +3,8 @@
 _Last updated: 2026-06-09._
 
 CanaryUsers is a **hosted, closed‑source product**. The application code lives in a
-**private** repository (`BrettonB/canaryusers`). That created friction for MCP
-distribution, because a lot of the discovery ecosystem assumes a **public GitHub
-repo**:
+separate **private** repository. That created friction for MCP distribution,
+because a lot of the discovery ecosystem assumes a **public GitHub repo**:
 
 - **awesome‑mcp‑servers** only accepts servers that link to a `https://github.com/…`
   repository (it auto‑rejects non‑GitHub links).
